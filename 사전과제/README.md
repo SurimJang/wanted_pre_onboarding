@@ -28,7 +28,7 @@ The following open source packages are used in this project:
   >>> X = tokenizer.fit_transform(sequences)
   >>> print(tokenizer.word_dict)
   ...   {'oov': 0, 'i': 1, 'like': 2, 'this': 3, 'movie': 4, 'its': 5, 'funny': 6, 'hate': 7, 'was': 8, 'awesome': 9, 'it': 10, 'nice': 11, 'one': 12, 'love': 13}
-  >>> print(X)
+  >>> print(X) 
   ...   [[1, 2, 3, 4, 5, 6], [1, 7, 3, 4], [3, 8, 9, 1, 2, 10], [11, 12, 1, 13, 10]]
 ```
 
